@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🏠 /home/sfoffo/.pt-notes](README.md)
+* [🏠 /home/Wijj9/.pt-notes](README.md)
 * [🏳️ Contributions](contributions/README.md)
   * [2024 Contributions](contributions/2024-contributions/README.md)
     * [CVE-2024-42845](contributions/2024-contributions/cve-2024-42845.md)
