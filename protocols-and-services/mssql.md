@@ -13,6 +13,7 @@
   `sudo nmap --script ms-sql-info,ms-sql-empty-password,ms-sql-xp-cmdshell,ms-sql-config,ms-sql-ntlm-info,ms-sql-tables,ms-sql-hasdbaccess,ms-sql-dac,ms-sql-dump-hashes --script-args mssql.instance-port=1433,mssql.username=sa,mssql.password=,mssql.instance-name=MSSQLSERVER -sV -p 1433 10.129.201.248`
 * Log in to the MSSQL server using Windows authentication:\
   `mssqlclient.py <user>@<FQDN/IP> -windows-auth`
+  `python3 /usr/local/bin/mssqlclient.py <user>@<IP> -windows-auth`
 * Connect to the MSSQL Server using sqlcmd:\
   `sqlcmd -S SRVMSSQL -U validuser -P validpassword -y 30 -Y 30`
 * Connect to the MSSQL Server using sqsh:\
