@@ -6,7 +6,7 @@
     * [CVE-2024-42845](contributions/2024-contributions/cve-2024-42845.md)
     * [CVE-2024-41819](contributions/2024-contributions/cve-2024-41819.md)
     * [CVE-2024-41943](contributions/2024-contributions/cve-2024-41943.md)
-* [🍀 Support this Project](https://buymeacoffee.com/sfoffo)
+* [🍀 About Wajih](https://wajih.info)
 * [📂 Active Directory](active-directory/README.md)
   * [Initial Access](active-directory/initial-access.md)
   * [Internal Enumeration & Lateral Movement](active-directory/internal-enumeration-and-lateral-movement.md)
