@@ -1,11 +1,6 @@
 # Table of contents
 
 * [🏠 /home/Wijj9/.pt-notes](README.md)
-* [🏳️ Contributions](contributions/README.md)
-  * [2024 Contributions](contributions/2024-contributions/README.md)
-    * [CVE-2024-42845](contributions/2024-contributions/cve-2024-42845.md)
-    * [CVE-2024-41819](contributions/2024-contributions/cve-2024-41819.md)
-    * [CVE-2024-41943](contributions/2024-contributions/cve-2024-41943.md)
 * [🍀 About Wajih](https://wajih.info)
 * [📂 Active Directory](active-directory/README.md)
   * [Initial Access](active-directory/initial-access.md)
