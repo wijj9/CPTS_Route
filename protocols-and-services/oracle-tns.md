@@ -27,3 +27,5 @@
 | ------------------------------------- | --------------------------------------------- |
 | select table\_name from all\_tables;  | List all available tables in current database |
 | select name, password from sys.user$; | Extract password hashes                       |
+| select * from user_role_privs;        | Extract usernames and their granted role      |
+
