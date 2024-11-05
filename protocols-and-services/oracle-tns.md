@@ -13,10 +13,11 @@
 
 | Command                                                                                        | Description                                                                                             |
 | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| ./odat.py all -s \<FQDN/IP>                                                                    | Perform a variety of scans to gather information about the Oracle database services and its components. |
+| python3 odat.py all -s \<FQDN/IP>                                                              | Perform a variety of scans to gather information about the Oracle database services and its components. |
+| python3 odat.py passwordguesser -p1521 -d XE -s <FQDN/IP>					 | Perform scan for credentials (usernames/passwords)							   |
 | sqlplus /@\<FQDN/IP>/                                                                          | Log in to the Oracle database.                                                                          |
 | sqlplus username/password@10.129.204.235/XE as sysdba                                          | Log in to the Oracle database with sysdba privileges                                                    |
-| ./odat.py utlfile -s \<FQDN/IP> -d -U -P --sysdba --putFile C:\insert\path file.txt ./file.txt | Upload a file with Oracle RDBMS.                                                                        |
+| python3 odat.py utlfile -s \<FQDN/IP> -d -U -P --sysdba --putFile C:\insert\path file.txt ./file.txt | Upload a file with Oracle RDBMS.                                                                        |
 | sudo nmap -p1521 -sV 10.129.204.235 --open --script oracle-sid-brute                           | Nmap SID Bruteforcing                                                                                   |
 
 ***

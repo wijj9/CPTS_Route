@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🏠 /home/Wijj9/.pt-notes](README.md)
+* [🏠 Home Page](README.md)
 * [🍀 About Wajih](https://wajih.info)
 * [📂 Active Directory](active-directory/README.md)
   * [Initial Access](active-directory/initial-access.md)
