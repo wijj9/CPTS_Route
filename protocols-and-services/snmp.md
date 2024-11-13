@@ -13,7 +13,7 @@
 
 | Command                                          | Description                                         |
 | ------------------------------------------------ | --------------------------------------------------- |
-| snmpwalk -v2c -c \<FQDN/IP>                      | Querying OIDs using snmpwalk.                       |
+| snmpwalk -v2c -c public \<FQDN/IP>                      | Querying OIDs using snmpwalk.                       |
 | onesixtyone -c community-strings.list \<FQDN/IP> | Bruteforcing community strings of the SNMP service. |
 | braa @\<FQDN/IP>:.1.\*                           | Bruteforcing SNMP service OIDs.                     |
 | snmp-check -c                                    | Enumerate SNMP                                      |
